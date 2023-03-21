@@ -1,0 +1,75 @@
+/* Container for the dog image and attributes */
+.dog-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.app-heading {
+  text-align: center;
+}
+
+/* Styles for the dog image */
+.dog-image {
+  max-width: 400px;
+  max-height: 400px;
+  margin-bottom: 1rem;
+}
+
+/* Styles for the dog attributes */
+.dog-attributes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Styles for the dog breed */
+.dog-breed {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-color: #f0f0f0;
+  border-radius: 0.25rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+/* Styles for the "Ban" button */
+.ban-button {
+  margin-left: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  background-color: #e81313;
+  border: none;
+  border-radius: 0.25rem;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ban-button:hover {
+  background-color: #cc0000;
+}
+
+/* Styles for the "New dog" and "History" buttons */
+.history-layout {
+  align-items: left;
+}
+
+.new-dog-button,
+.history-button {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 0.25rem;
+  color: #333;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.new-dog-button:hover,
+.history-button:hover {
+  background-color: #e0e0e0;
+}
